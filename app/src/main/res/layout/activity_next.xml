@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/margin_medium"
+        tools:context=".NextActivity">
+    <TextView
+            android:id="@+id/tvNextHeader"
+            android:text="@string/header_next_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:textSize="@dimen/text_header"/>
+    <EditText
+            android:id="@+id/etEnterName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:hint="@string/hint_name"/>
+    <Button
+            android:id="@+id/btnSubmit"
+            android:text="@string/button_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button"/>
+</LinearLayout>
+
+

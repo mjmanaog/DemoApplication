@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Demo Application</string>
+
+    <string name="header_main_title">Feel free to plant a tree.</string>
+    <string name="header_main_subtitle">Trees help reduce the effects of pollution, which is why we should all plant more trees.</string>
+    <string name="header_next_name">What\'s your name?</string>
+
+    <string name="image_desc">Planting Image</string>
+
+    <string name="button_learn_more">Learn more</string>
+    <string name="button_submit">Submit</string>
+
+    <string name="hint_name">Enter your name</string>
+</resources>
+
